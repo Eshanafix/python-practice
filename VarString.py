@@ -43,3 +43,17 @@ c_message = f"{a_message}, {b_message.upper()}. please go away my dude"
 print(c_message)
 
 #print(dir(message)) gives methods for variable type, too see morea bout methods use help function,  print(help(str)), print(help(str.lower))
+
+#F string notes specific
+
+#Adds leading zero
+for n  in range(10):
+    print(f'The value is {n:02}')
+
+# add point to specify a floating point
+pi = 3.14195265
+print(f'Pi is equal to {pi:.4f}')
+
+
+#dates
+
